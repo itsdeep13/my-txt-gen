@@ -9,6 +9,6 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6363345131"))  # Your Telegram user I
 SUDO_USERS = list(map(int, os.environ.get("SUDO_USERS", "6363345131").split()))  # Space-separated user IDs
 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Deep:<XDeep>@cluster0.c8youpz.mongodb.net/?retryWrites=true&w=majority")##your mongo url eg: withmongodb+srv://xxxxxxx:xxxxxxx@clusterX.xxxx.mongodb.net/?retryWrites=true&w=majority
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-"))  # Telegram channel ID (with -100 prefix)
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002938370113"))  # Telegram channel ID (with -100 prefix)
 
 PREMIUM_LOGS = os.environ.get("PREMIUM_LOGS", "")  # Optional here you'll get all logs
